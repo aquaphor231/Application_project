@@ -1,0 +1,642 @@
+html{
+  scroll-behavior: smooth;
+  height: 5205px !important;
+}
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0 ;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  
+  #navbar{
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  nav{
+  /*   #f2f0f6 */
+    background: transparent;
+    height: 65px;
+    width: 100%;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: 400;
+  }
+
+  #resume{
+    position: absolute;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    color: seagreen;
+    background: transparent;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    right: 600px;
+    top: 10px;
+  }
+  
+  
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  
+  
+  a{
+    position: relative;
+    text-decoration: none;
+     color: #3EB489 ;
+    font-size: 20px;
+    bottom:50%;
+    right: 200px;
+  }
+
+  a:after{
+    content: "";
+    position: absolute;
+    background-color: #4e4e4e;
+    height: 3px;
+    width: 0;
+    top: 23px;
+    left:0px;
+    transition: 0.3s;
+  }
+
+  a:hover:after{
+    width: 100%;
+  }
+    
+  span {
+    content: "\00DF";
+    font-size: 60px;
+    position: absolute;
+  }
+
+
+
+
+  #Intro{
+    position: absolute;
+    bottom: 550px; 
+    font-size: 70px;
+    font-weight: bold;
+    left: 80px;
+
+  }
+
+  #Aspiration{
+    position: absolute;
+    bottom: 505px;
+    font-size: 50px;
+    left: 80px;
+  }
+
+  #line1{
+    position: absolute;
+    width: 75%;
+    bottom: 380px;
+    left: 165px; 
+  }
+
+  
+  #LastSummer{
+    position: absolute;
+    top: 2215px; 
+    font-size: 25px;
+    right: 310px;
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    margin: 18% 22%;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 12px 12px 2px 1px rgba(194, 194, 224, 0.138);
+  }
+
+  #Involvement{
+    position: absolute;
+    top: 1650px; 
+    font-size: 25px;
+    right: 310px;
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    margin: 18% 22%;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 12px 12px 2px 1px rgba(194, 194, 224, 0.138);
+  }
+
+  #Activity2{
+    position: absolute;
+    top: 1260px; 
+    font-size: 25px;
+    right: 310px;
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    margin: 18% 22%;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 12px 12px 2px 1px rgba(194, 194, 224, 0.138);
+  }
+
+  #Activity1{
+    position: absolute;
+    top: 800px; 
+    font-size:  25px;
+    right: 310px;
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    margin: 18% 22%;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 12px 12px 2px 1px rgba(194, 194, 224, 0.138);
+  }
+
+  #Ghana{
+    position: absolute;
+    top: 380px; 
+    font-size: 25px;
+    right: 310px;
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    margin: 18% 22%;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 12px 12px 2px 1px rgba(194, 194, 224, 0.138);
+
+  }
+
+  #banku{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 200px;
+  }
+
+  #banku_background{
+    top: 590px; 
+    width: 240px;
+    height: 300px;
+    position: absolute;
+    background-color: #eaeaea; 
+    padding: 19px 19px 85px 19px;
+    right: 90px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.028);
+  }
+
+  #foodcap{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    position: absolute;
+    right: 50px;
+    color: black;
+    margin-top: 210px;
+  }
+
+  #outdoors{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    width: 200px;
+  }
+
+  #outdoors_background{
+    top: 1025px; 
+    width: 240px;
+    height: 300px;
+    position: absolute;
+    background-color: #eaeaea; 
+    padding: 19px 19px 85px 19px;
+    right: 90px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.028);
+  }
+
+  #outsidecap{
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 25px;
+      position: absolute;
+      right: 30px;
+      color: black;
+      margin-top: 210px;
+    }
+  
+
+  #crochet{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    width: 200px;
+  }
+
+  #crochetcap{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    position: absolute;
+    right: 50px;
+    color: black;
+    margin-top: 210px;
+  }
+
+  #crocheting_background{
+    top: 1430px; 
+    width: 240px;
+    height: 300px;
+    position: absolute;
+    background-color: #eaeaea; 
+    padding: 19px 19px 85px 19px;
+    right: 90px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.028);
+  }
+
+  #bbics{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    width: 200px;
+    right: 50px;
+  }
+
+  #bbics_background{
+    top: 1910px; 
+    width: 240px;
+    height: 300px;
+    position: absolute;
+    background-color: #eaeaea; 
+    padding: 19px 19px 85px 19px;
+    right: 90px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.028);
+  }
+
+  #bbicscap{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    position: absolute;
+    left: 40px;
+    color: black;
+    margin-top: 210px;
+  }
+
+  #RobotSummer{
+    position: absolute;
+    top: 2480px; 
+    right: 55px;
+    box-shadow: 12px 12px 2px 1px rgba(194, 194, 224, 0.138);
+  } 
+
+  #line2{
+    position: absolute;
+    width: 75%;
+    top: 3020px;
+    left: 165px; 
+  }
+
+  #AppVideo_background{
+    top: 3300px; 
+    width: 900px;
+    height: 550px;
+    position: absolute;
+    background-color: black; 
+    padding: 19px 19px 85px 19px;
+    right: 270px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.028);
+  }
+
+  #Task_Vid{
+    position: absolute;
+    top: 28px; 
+    right: 100px;
+  }
+
+  #InterviewVid{
+    position: absolute;
+    top: 3170px; 
+    font-size: 70px;
+    font-weight: bold;
+    left: 80px;
+  }
+
+  #line3{
+    position: absolute;
+    width: 75%;
+    top: 4000px;
+    left: 165px; 
+  }
+
+ 
+  
+  #MoneyApp_back{
+    top: 4250px; 
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    background-color: #eaeaea; 
+    padding: 19px 19px 85px 19px;
+    right: 1000px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.028);
+    border-radius: 25px
+  }
+
+
+  #Money{
+    position: absolute;
+    top: 10px;
+    width: 300px;
+    right: 25px;
+    border-radius: 25px;
+  }
+
+  #Portfolio{
+    position: absolute;
+    top: 4100px; 
+    font-size: 70px;
+    font-weight: bold;
+    left: 80px;
+  }
+  
+  #MoneyUp{
+    position: absolute;
+    top: 4600px; 
+    font-size: 40px;
+    font-weight: bold;
+    left: 160px;
+    color: navy;
+    text-shadow: 2px 2px gray;
+    border-radius: 25px;
+  }
+
+  #PersonalAssist_back{
+    top: 4250px; 
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    background-color: #eaeaea; 
+    padding: 19px 19px 85px 19px;
+    right: 520px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.028);
+    border-radius: 25px;
+  }
+
+
+  #Manager{
+    position: absolute;
+    top: 10px;
+    width: 300px;
+    left: 25px;
+    border-radius: 25px;
+  }
+
+
+  #Tasks{
+    position: absolute;
+    top: 4600px; 
+    font-size: 40px;
+    font-weight: bold;
+    left: 595px;
+    color: navy;
+    text-shadow: 2px 2px gray;
+  }
+
+  #Eats_back{
+    top: 4250px; 
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    background-color: #eaeaea; 
+    padding: 19px 19px 85px 19px;
+    right: 65px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.028);
+    border-radius: 25px;
+  }
+
+
+  #Foodapp{
+    position: absolute;
+    top: 10px;
+    width: 300px;
+    right: 25px;
+    border-radius: 25px;
+  }
+
+
+  #Food{
+    position: absolute;
+    top: 4600px; 
+    font-size: 40px;
+    font-weight: bold;
+    left: 1109px;
+    color: navy;
+    text-shadow: 2px 2px gray;
+  }
+
+  #line4{
+    position: absolute;
+    width: 75%;
+    top: 4900px;
+    left: 165px; 
+  }
+
+  #ME{
+    position: absolute;
+    top: 4940px; 
+    font-size: 30px;
+    font-weight: bold;
+    left: 600px;
+  }
+  
+    #linkedin{
+      position: absolute;
+      top: 5000px;
+      right: 480px;
+    }
+
+  
+
+
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --clr-light:linear-gradient(700deg, rgb(139, 0, 182) 0%, rgb(74, 140, 246)50%,#f4e9fa 90%);
+    height: 6000px;
+    --clr-dark: linear-gradient(132deg, rgb(35, 0, 45) 0%, rgb(0, 35, 91)50%,#170023 90%);
+    
+  
+    --foreground: var(--clr-dark);
+    --background: var(--clr-light);
+  
+  }
+  
+  .darkmode {
+    --clr-light: #3EB489;
+    --clr-dark: linear-gradient(132deg, rgb(35, 0, 45) 0%, rgb(0, 35, 91)50%,#170023 90%);;
+    
+    --foreground: var(--clr-light);
+    --background: var(--clr-dark);
+  }
+  
+  
+  body {
+    background: var(--background);
+    
+    color: var(--foreground);
+    font-family: var(--ff-body);
+    font-size: 18px;
+    line-height: 1.6;
+    height: 5205px;
+  }
+  
+  h1 {
+    font-size: calc(3rem + 7vw);
+    font-family: var(--ff-title);
+    margin: 0 0 0.25em;
+    line-height: 1;
+  }
+  
+  .subtitle {
+    max-width: 600px;
+  }
+  
+  .btn-group {
+    margin: 2em 0;
+    display: relative;
+  }
+  
+  .btn {
+    padding: 1em 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+  }
+  
+  .btn + .btn {
+    margin-left: 1em;
+  }
+  
+  .btn-secondary {
+    background: var(--foreground);
+    color: var(--background);
+    
+  }
+  
+  .btn-accent {
+    background: var(--clr-accent);
+    color: var(--foreground);
+  }
+  
+  .btn::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: var(--foreground) 2px solid;
+    left: -4px;
+    top: 4px;
+    border-radius: inherit;
+    z-index: -1;
+  }
+  
+  
+
+  .dark-mode-toggle {
+    position: absolute;
+    z-index: 100;
+    top: 1em;
+    right: 1em;
+    color: var(--foreground);
+    border: 2px solid currentColor;
+    padding: 4px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  
+#dark_light{
+  position: absolute;
+  top: 18px;
+  right: 54px;
+  
+  font-size: 16px;
+}
+
+@media(max-width: 780px){
+  a{text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 150px;
+    
+  }
+  #intro{text-align: center;
+        padding-top:150px;
+}
+
+}
+
+ion-icon[name = "logo-linkedin"]{
+  font-size: 70px;
+}
+ion-icon[name = "logo-linkedin"]:hover{
+  color: #f4e9fa;
+  font-size: 90px;
+}
+
+ion-icon[name = "logo-github"]{
+  font-size: 70px;
+  position: absolute;
+  top: 5000px;
+  right: 700px;
+  color: #3EB489;
+}
+ion-icon[name = "logo-github"]:hover{
+  color: #f4e9fa;
+  font-size: 90px;
+
+}
+
+ion-icon[name = "logo-instagram"]{
+  font-size: 70px;
+  position: absolute;
+  top: 5000px;
+  right: 910px;
+  color: #3EB489;
+}
+ion-icon[name = "logo-instagram"]:hover{
+  color: #f4e9fa;
+  font-size: 90px;
+
+}
+
+#lastline{
+  position: absolute;
+  width: 75%;
+  top: 5200px;
+  left: 165px;
+}
+
+
+
